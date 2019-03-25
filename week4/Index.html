@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+            background-color: #68be4a;
+
+        }
+
+        .loginbox {
+            text-align: center;
+            margin: auto;
+            width: 200px;
+            background-color: green;
+            border: 0px;
+
+            padding: 5px;
+            top: 50%;
+            left: 50%;
+            color: white;
+            font-family: Courier,;
+            font-size: 15px;
+        }
+
+
+
+        .centrebox {
+            text-align: center;
+            margin: auto;
+            width: 400px;
+            background-color: #f2f2f2;
+ 
+            -webkit-box-shadow: 0px 0px 13px 0px rgba(35, 77, 44, 1);
+            -moz-box-shadow: 0px 0px 13px 0px rgba(35, 77, 44, 1);
+            box-shadow: 0px 0px 13px 0px rgba(35, 77, 44, 1);
+
+
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .input-text {
+            color: lightgrey;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        .input-text2 {
+            color: lightgreen;
+            font-family: Comic Sans MS;
+        }
+
+        .w-100 {
+            width: 80%;
+        }
+        .border {
+            border: 0px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="centrebox">
+            <br>
+            <input class="input-text w-100 border" type="text" name="firstname" value=" username">
+            <br>
+            <br>
+            <input class="input-text w-100 border" type="text" name="lastname" value=" password">
+            <br><br>
+            <div><input class="loginbox w-100" type="submit" value="LOGIN"></div>
+            <div class="input-text">not registered? <span class="input-text2">Create an account</span>
+            </div>
+            <br><br>
+            </form>
+        </div>
+</body>
+
+</html>
