@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h2>Javascript time!</h2>
+    <button id="example">whats the time javascript?</button>
+    <p id="demo"></p>
+    <script>
+        var exampleButton = document.getElementById("example");
+        exampleButton.onclick = ButtonClicked;
+
+        function ButtonClicked() {
+            console.log("You dun screwed up.");
+            //while(true){}
+            document.getElementById('demo').innerHTML = Date()
+        }
+
+        var grade = "im dumb";
+        var counter = 0;
+
+        while(counter < 10){
+            console.log(counter);
+            counter++;
+        }
+
+    </script>
+</body>
+
+</html>
