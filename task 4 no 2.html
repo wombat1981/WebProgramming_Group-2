@@ -10,8 +10,10 @@
     }
 
     .square {
-        height: 100%;
-        width: 100%;
+        align-self: auto;
+        margin: auto;
+        height: fit-content;
+        width: fit-content;
         background-color: lightblue;
     }
 
@@ -21,6 +23,10 @@
         width: 350px;
         background-color: grey;
         border: 10px;
+    }
+    .entertext {
+        font-family: 'Courier New', Courier, monospace;
+        color:black
     }
 
     .input-text {
@@ -38,11 +44,13 @@
     .w-100 {
         width: 80%;
     }
-s
-    .w-200 {
+
+    .w-200 .align{
         width: 40%;
     }
-
+    .align {
+        align-self: auto;
+    }
 
     .border {
         border: 1px;
@@ -57,25 +65,25 @@ s
                 <br>
                 <br>
                <div>
-                <input class="loginbox w-200" type="submit" value="Connect with facebook"></div>
-            <div><input class="loginbox w-200" type="submit" value="Connect with twitter"></div>
+                <input class="loginbox w-200" type="submit" value="Connect with facebook"><input class="loginbox w-200" type="submit" value="Connect with twitter"></div>
+                <br>
+               
             <br>
+            <input class="input-text w-200 border" type="text, entertext" name="firstname" value="first name">
+            <input class="input-text w-200 border" type="text" name="lastname" value="Last name">
             <br>
-            <input class="input-text w-200 border" type="text" name="firstname" value=" first name">
-            <input class="input-text w-200 border" type="text" name="lastname" value=" Last name">
-            <br><br>
         
                 <div class="input-text"> <span class="input-text2"></span>
-                    <input class="input-text w-100 border" type="text" name="firstname" value=" enter email">
+                    <input class="input-text w-100 border" type="text," name="email" value=" enter email">
                     <br>
+                
+                    <input class="input-text w-100 border" type="text" name="password" value="password">
                     <br>
-                    <input class="input-text w-100 border" type="text" name="lastname" value=" password">
-                    <br><br>
 
                     <div><input class="loginbox w-100" type="submit" value="Create an account"></div>
                     <div class="input-text"> <span class="input-text2"></span>
                     </div>
-                    <br><br>
+                    <br>
                     </form>
                 </div>
 
